@@ -34,7 +34,8 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-  p {
+  .history {
     display: flex;
+    flex-direction: flex-wrap;
   }
 }

@@ -6,6 +6,12 @@ import Dropdown from './Components/Dropdown'
 import './index.css'
 import Footer from './Components/Footer'
 import History from './Components/History'
+import Arena from './Components/Arena'
+import Contact from './Components/Contact'
+import Daggerfall from './Components/Daggerfall'
+import Morrowind from './Components/Morrowind'
+import Oblivion from './Components/Oblivion'
+import Skyrim from './Components/Skyrim'
 
 function App() {
 
@@ -13,11 +19,15 @@ function App() {
     <div>
       <BrowserRouter>
         <Navbar />
-        <Home />
-        <History />
         <Routes>
-          <Route path="/" />
+          <Route path="/" element={<Home />} />
           <Route path="/History" element={<History />} />
+          <Route path="/Arena" element={<Arena />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Daggerfall" element={<Daggerfall />} />
+          <Route path="/Morrowind" element={<Morrowind />} />
+          <Route path="/Oblivion" element={<Oblivion />} />
+          <Route path="/Skyrim" element={<Skyrim />} />
         </Routes>
         <Footer />
       </BrowserRouter>

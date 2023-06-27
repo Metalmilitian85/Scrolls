@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineCaretUp, AiOutlineCaretDown } from 'react-icons/ai'
 import list from './list.json'
 import {useState} from 'react'
+import {Link} from 'react-router-dom'
 
 export default function Dropdown() {
 
@@ -26,13 +27,17 @@ export default function Dropdown() {
             </button>
 
             {isOpen && (
-                <div className="bg-black absolute top-[55px] flex flex-col items-start border-solid rounded border-4 border-gray-400 p-2 w-[150px]">
-                    {list.map((item) => (
-                        <div className="flex w-full justify-between p-2 hover:bg-gray-700 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4">
-                            <h3 className="font-bold">{item.type}</h3>
-                        </div>
-                    ))}
+                <div className="bg-black absolute left-[150px] flex flex-col items-start border-solid rounded border-4 border-gray-400 p-2 w-[150px]" >
+                <div className="flex w-full justify-between p-2">
+                    <ul>
+                        <li className=" hover:bg-gray-700 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4"><Link to="/Arena">Arena</Link></li>
+                        <li className=" hover:bg-gray-700 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4"><Link to="/Daggerfall">Daggerfall</Link></li>
+                        <li className=" hover:bg-gray-700 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4"><Link to="/Morrowind">Morrowind</Link></li>
+                        <li className=" hover:bg-gray-700 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4"><Link to="/Oblivion">Oblivion</Link></li>
+                        <li className=" hover:bg-gray-700 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4"><Link to="/Skyrim">Skyrim</Link></li>
+                    </ul>
                 </div>
+        </div>
             )}
         </div>
     );
