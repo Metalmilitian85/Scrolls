@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import Dropdown from './Dropdown'
+import Dropdown2 from './Dropdown2'
 
 
 const Navbar = () => {
@@ -20,6 +21,7 @@ const Navbar = () => {
           <ul className="hidden md:flex text-purple-100 p-8 text-lg items-center">
             <Link to='/'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Home</li></Link>
             <Dropdown />
+            <Dropdown2 />
             <Link to='/Pets'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Pets</li></Link>
           
             <Link to='/contact'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Contact</li></Link>
@@ -32,6 +34,9 @@ const Navbar = () => {
             <Link to='/'><li onClick={handleNav} className="p-4 border-b border-gray-600">Home</li></Link>
             <div className="border-b border-gray-600">
               <Dropdown />
+            </div>
+            <div className="border-b border-gray-600">
+              <Dropdown2 />
             </div>
             <Link to='/Pets'><li onClick={handleNav} className="p-4 border-b border-gray-600">Pets</li></Link>
             <Link to='/Mission'><li onClick={handleNav} className="p-4 border-b border-gray-600">Our Mission</li></Link>
