@@ -1,3 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: lightgray;
+}
+
+h2 {
+  font-family: "Trade Winds", cursive;
+}
+
+button {
+  font-family: "Trade Winds", cursive;
+}
+
+li {
+  font-family: "Trade Winds", cursive;
+}
+
+h3 {
+  font-family: "Trade Winds", cursive;
+}
