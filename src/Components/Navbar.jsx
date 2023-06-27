@@ -30,7 +30,7 @@ const Navbar = () => {
           </ul>
       <div className="content-between">  
         <h2 className="text-white text-3xl">The Elder Scrolls</h2>
-        <div className={!nav ? "fixed left-0 top-0 w-[26%] h-full border-r border-r-gray-900 bg-purple-100 ease-in-out duration-200" : "fixed left-[-100%]"}>
+        <div className={!nav ? "fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-purple-100 ease-in-out duration-200" : "fixed left-[-100%]"}>
           <ul className="p-4 text-white bg-gradient-to-r from-black to-gray-700">
             <button onClick={handleNav}>Close</button>
             <Link to='/'><li onClick={handleNav} className="p-4 border-b border-gray-600">Home</li></Link>
