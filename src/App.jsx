@@ -5,6 +5,7 @@ import Home from './Components/Home'
 import Dropdown from './Components/Dropdown'
 import './index.css'
 import Footer from './Components/Footer'
+import History from './Components/History'
 
 function App() {
 
@@ -12,8 +13,11 @@ function App() {
     <div>
       <BrowserRouter>
         <Navbar />
+        <Home />
+        <History />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" />
+          <Route path="/History" element={<History />} />
         </Routes>
         <Footer />
       </BrowserRouter>
