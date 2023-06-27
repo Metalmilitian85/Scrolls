@@ -1,0 +1,20 @@
+[
+    {
+        "type": "Arena"
+    },
+    {
+        "type": "Daggerfall"
+    },
+    {
+        "type": "Morrowind"
+    },
+    {
+        "type": "Oblivion"
+    },
+    {
+        "type": "Skyrim"
+    },
+    {
+        "type": "ESO"
+    }
+]
