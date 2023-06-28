@@ -19,7 +19,7 @@ button {
   font-family: "Trade Winds", cursive;
 }
 
-li {
+ul {
   font-family: "Trade Winds", cursive;
 }
 
@@ -28,7 +28,6 @@ h3 {
 }
 
 p {
-  color: white;
   margin: 20px;
   text-align: center;
 }

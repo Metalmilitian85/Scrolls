@@ -27,7 +27,7 @@ export default function Dropdown() {
             </button>
 
             {isOpen && (
-                <div className="bg-black absolute left-[150px] flex flex-col items-start border-solid rounded border-4 border-gray-400 p-2 w-[150px]" >
+                <div className="bg-black absolute top-[55px] flex flex-col items-start border-solid rounded border-4 border-gray-400 p-2 w-[150px]" >
                 <div className="flex w-full justify-between p-2">
                     <ul>
                         <li className=" hover:bg-gray-700 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4"><Link to="/Arena">Arena</Link></li>
