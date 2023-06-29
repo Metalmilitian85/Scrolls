@@ -29,7 +29,7 @@ export default function Dropdown() {
                 <div className="bg-black absolute left-[150px] flex flex-col items-start border-solid rounded border-4 border-gray-400 p-2 w-[150px]">
                     {books.map((item) => (
                         <div className="flex w-full justify-between p-2 hover:bg-gray-700 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-4">
-                            <h3 className="font-bold">{item.type}</h3>
+                            <h3 onClick={handleOpen} className="font-bold">{item.type}</h3>
                         </div>
                     ))}
                 </div>
