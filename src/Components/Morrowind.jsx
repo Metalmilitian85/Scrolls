@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Morrowind() {
     return (
-        <div>
-            <h3 className="text-3xl text-center mt-4">Morrowind</h3>
-              <div className="text-black m-8">
+        <div id="Morrowind" className="mb-5 pt-12">
+            <h3 className="text-3xl text-center text-white mt-36">Morrowind</h3>
+              <div className="text-white m-8">
                 <p>Morrowind takes place on Vvardenfell, an island in the Dunmer-dominated province of Morrowind, far from the typically European-inspired 
                     lands to the west and south depicted in Daggerfall and Arena. Along with graphical improvements, one of the most apparent differences 
                     between Morrowind and the earlier games in the series is that Morrowind takes place in a much smaller area than the previous games. 

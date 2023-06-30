@@ -24,20 +24,18 @@ const Navbar = () => {
           <ul className="hidden md:flex text-purple-100 p-8 text-lg items-center">
             <Link to="/"><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Home</li></Link>
             <Link to="/History"><a href='#/History'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">History</li></a></Link>
-            <Dropdown3 />
+            <Link to="/Games"><a href='#/Games'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Games</li></a></Link>
             <Dropdown4 />
             <Link to='/contact'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Contact</li></Link>
           </ul>
       <div className="content-between">  
-        <h2 className="text-white text-3xl">The Elder Scrolls</h2>
+        <a href="https://elderscrolls.bethesda.net/en/" target="_blank"><h2 className="text-white text-3xl">The Elder Scrolls</h2></a>
         <div className={!nav ? "fixed left-0 top-0 w-[40%] h-full bg-gradient-to-r from-black to-gray-700 border-r border-r-gray-900 bg-purple-100 ease-in-out duration-200" : "fixed left-[-100%]"}>
           <ul className="p-4 text-white">
             <button onClick={handleNav}>Close</button>
             <Link to='/'><li onClick={handleNav} className="p-4 border-b border-gray-600">Home</li></Link>
             <Link to="/History"><a href='#/History'><li onClick={handleNav} className="p-4 border-b border-gray-600">History</li></a></Link>
-            <div className="border-b border-gray-600">
-              <Dropdown />
-            </div>
+            <Link to="/Games"><a href='#/Games'><li onClick={handleNav} className="p-4 border-b border-gray-600">Games</li></a></Link>
             <div className="border-b border-gray-600">
               <Dropdown2 />
             </div>

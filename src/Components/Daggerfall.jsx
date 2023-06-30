@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Daggerfall() {
     return (
-        <div>
-            <h3 className="text-3xl text-center mt-4">Daggerfall</h3>
-              <div className="text-black m-8">
+        <div id="Daggerfall" className="mb-5 pt-12">
+            <h3 className="text-3xl text-center text-white mt-36">Daggerfall</h3>
+              <div className="text-white m-8">
                 <p>Daggerfall is set in the Iliac Bay, between the provinces of High Rock and Hammerfell. The player is sent here at the personal request of the Emperor. 
                     He wants the player to do two things: First, the player must free the ghost of King Lysandus from his earthly shackles; Second, the player must 
                     discover what happened to a letter from the Emperor to the former queen of Daggerfall. The letter reveals that Lysandus's mother, Nulfaga, knows 

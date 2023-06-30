@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Oblivion() {
     return (
-        <div>
-            <h3 className="text-3xl text-center mt-4">Oblivion</h3>
-              <div className="text-black m-8">
+        <div id="Oblivion" className="mb-5 pt-12">
+            <h3 className="text-3xl text-center text-white mt-36">Oblivion</h3>
+              <div className="text-white m-8">
                 <p>Oblivion is set during the Third Era, six years after the events of The Elder Scrolls III: Morrowind, although it is not a 
                     direct sequel to it or any other game.[19] The game is set in Cyrodiil—a province of Tamriel, the continent on which all 
                     the games in the series have so far taken place.</p>
