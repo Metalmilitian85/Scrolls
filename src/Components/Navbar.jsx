@@ -17,7 +17,7 @@ const Navbar = () => {
     }
     
   return (
-    <nav className="top-0 flex justify-between items-center h-24 max-w-100vh mx-auto px-4 text-blue font-bold bg-gradient-to-r from-black to-gray-700">
+    <nav className="z-10 top-0 flex justify-between items-center h-24 max-w-100vh mx-auto px-4 text-blue font-bold bg-gradient-to-r from-black to-gray-700">
         <div onClick={handleNav} className="block md:hidden" >
             {!nav ? <AiOutlineClose size={20} color='#000' /> : <AiOutlineMenu size={20} color='#fff'/>}
         </div>
