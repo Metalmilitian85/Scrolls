@@ -7,11 +7,11 @@ export default function History() {
     return (
         <div id="/History" className="bg-black py-10">
           <div className="nav2">
-            <h3 className="text-white text-3xl text-center pb-5">History of Tamriel</h3>
-            <ul className="text-white text-center flex justify-center space-x-7 mb-5">
-                <a href="#Gods"><li><h3 className="hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Gods</h3></li></a>
-                <a href="#Locations"><li><h3 className="hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Locations</h3></li></a>
-                <a href="#Ages"><li><h3 className="hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Ages</h3></li></a>
+            <h3 className="text-white text-xl text-center pb-1">History of Tamriel</h3>
+            <ul className="text-white text-center flex justify-center space-x-6 mb-5">
+                <a href="#Gods"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Gods</h3></li></a>
+                <a href="#Locations"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Locations</h3></li></a>
+                <a href="#Ages"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Ages</h3></li></a>
             </ul>
           </div>
             <div class="history" className="flex-col" >
@@ -22,8 +22,11 @@ export default function History() {
                     of the infinite and the absolute. In the Elder Scrolls, Mundus is the Elvish root for the human word 
                     "mundane", meaning ordinary. The name Tamriel is said to mean 'Starry Heart', however, according to Arena, 
                     it really is Elvish for 'Dawn's Beauty'.</p>
+                <img className="mx-auto mt-24" src="./divider.jpg" />
                 <Gods />
+                <img className="mx-auto mt-24" src="./divider.jpg" />
                 <Locations />
+                <img className="mx-auto mt-24" src="./divider.jpg" />
                 <Ages />
             </div>
         </div>

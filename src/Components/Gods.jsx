@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Gods() {
     return (
-        <div id="Gods" className="text-white text-center justify-center mx-auto mb-5 pt-12">
+        <div id="Gods" className="text-white text-center justify-center mx-auto mb-5 pt-16">
             <h3 className="text-3xl mt-24 hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Gods</h3>
               <div className="text-white m-8">
                 <p className="font-semibold underline text-lg">The Nine Divines / Aedra</p>

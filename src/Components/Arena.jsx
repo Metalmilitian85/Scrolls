@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Arena() {
     return (
-        <div id="Arena" className="mb-5 pt-12">
-            <h3 className="text-3xl text-center text-white mt-36">Arena</h3>
+        <div id="Arena" className="mb-5 pt-48">
+            <h3 className="text-white text-center text-9xl">I</h3>
+            <h3 className="text-3xl text-center text-white mt-3">Arena</h3>
               <div className="text-white m-8">
                 <p>The game's setting begins in Tamriel on the 389th year of the Third Era, when Emperor Uriel Septim VII summons his advisor and Imperial Battlemage 
                     Jagar Tharn over concerns of betrayal from within the court. It transpires that his concerns were justified when Tharn is revealed to be the traitor, 

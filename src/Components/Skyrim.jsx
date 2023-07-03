@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Skyrim() {
     return (
-        <div id="Skyrim" classname="mb-5 pt-12">
-            <h3 className="text-3xl text-center text-white mt-44">Skyrim</h3>
+        <div id="Skyrim" classname="mb-5 pt-48">
+            <h3 className="text-white text-center text-9xl">V</h3>
+            <h3 className="text-3xl text-center text-white mt-3">Skyrim</h3>
               <div className="text-white m-8">
                 <p>Skyrim is set 200 years after the events of The Elder Scrolls IV: Oblivion, although it is not a direct sequel. 
                     Skyrim is a cold and mountainous region in the north of the continent of Tamriel. It has traditionally been divided into nine administrative 

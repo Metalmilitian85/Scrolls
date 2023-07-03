@@ -13,6 +13,7 @@ import Morrowind from './Components/Morrowind'
 import Oblivion from './Components/Oblivion'
 import Skyrim from './Components/Skyrim'
 import Games from './Components/Games'
+import Books from './Components/Books'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/Oblivion" element={<Oblivion />} />
           <Route path="/Skyrim" element={<Skyrim />} />
           <Route path="/Games" element={<Games />} />
+          <Route path="/Books" element={<Books />} />
         </Routes>
         <Footer />
       </BrowserRouter>

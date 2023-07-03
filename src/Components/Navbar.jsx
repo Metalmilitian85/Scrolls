@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link to="/"><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Home</li></Link>
             <Link to="/History"><a href='#/History'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">History</li></a></Link>
             <Link to="/Games"><a href='#/Games'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Games</li></a></Link>
-            <Dropdown4 />
+            <Link to="/Books"><a href='#/Books'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Books</li></a></Link>
             <Link to='/contact'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Contact</li></Link>
           </ul>
       <div className="content-between">  
@@ -36,9 +36,7 @@ const Navbar = () => {
             <Link to='/'><li onClick={handleNav} className="p-4 border-b border-gray-600">Home</li></Link>
             <Link to="/History"><a href='#/History'><li onClick={handleNav} className="p-4 border-b border-gray-600">History</li></a></Link>
             <Link to="/Games"><a href='#/Games'><li onClick={handleNav} className="p-4 border-b border-gray-600">Games</li></a></Link>
-            <div className="border-b border-gray-600">
-              <Dropdown2 />
-            </div>
+            <Link to="/Books"><a href='#/Books'><li onClick={handleNav} className="p-4 border-b border-gray-600">Books</li></a></Link>
             <Link to='/contact'><li onClick={handleNav} className="p-4 border-b border-gray-600">Contact</li></Link>
           </ul>
         </div>
