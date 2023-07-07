@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter >
         <ScrollToTop />
         <Navbar />
         <Routes>
