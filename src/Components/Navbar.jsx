@@ -1,7 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
-import {Link} from 'react-scroll'
 import Dropdown from './Dropdown'
 import Dropdown2 from './Dropdown2'
 import Dropdown3 from './Dropdown3'
