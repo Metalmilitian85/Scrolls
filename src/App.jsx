@@ -14,12 +14,14 @@ import Oblivion from './Components/Oblivion'
 import Skyrim from './Components/Skyrim'
 import Games from './Components/Games'
 import Books from './Components/Books'
+import ScrollToTop from './Components/ScrollToTop'
 
 function App() {
 
   return (
     <div>
       <BrowserRouter>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
