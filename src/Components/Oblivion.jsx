@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Oblivion() {
     return (
-        <div id="Oblivion" className="mb-5 pt-48">
+        <div id="Oblivion" className="mb-3 pt-24">
             <h3 className="text-white text-center text-9xl">IV</h3>
             <h3 className="text-3xl text-center text-white mt-3">Oblivion</h3>
               <div className="text-white m-8">
@@ -43,7 +43,7 @@ export default function Oblivion() {
                     a Great Sigil Stone from inside a Great Gate similar to the one that devastated Kvatch. Martin and Jauffre decide to allow the city 
                     of Bruma to be attacked by Daedra so that a Great Gate will be opened. Once it is, the player obtains the Stone and closes the Gate, 
                     also saving Bruma.</p>
-                <p className="pb-24">A portal is created at Cloud Ruler Temple, and the player is sent through to Mankar Camoran's created realm of Paradise. After bypassing 
+                <p className="pb-20">A portal is created at Cloud Ruler Temple, and the player is sent through to Mankar Camoran's created realm of Paradise. After bypassing 
                     Daedra, Mythic Dawn members and obstacles, the player confronts Camoran and kills him. The player returns the Amulet of Kings to Martin, 
                     and they subsequently travel to the Imperial City with the Blades to relight the Dragonfires and end the Daedric invasion. They find 
                     the city under attack by Daedra and an enormous avatar of Mehrunes Dagon himself. The player and Martin fight their way to the Temple 

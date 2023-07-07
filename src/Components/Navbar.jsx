@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import {Link} from 'react-scroll'
 import Dropdown from './Dropdown'
 import Dropdown2 from './Dropdown2'
 import Dropdown3 from './Dropdown3'
@@ -30,14 +31,14 @@ const Navbar = () => {
           </ul>
       <div className="content-between">  
         <a href="https://elderscrolls.bethesda.net/en/" target="_blank"><h2 className="text-white text-3xl">The Elder Scrolls</h2></a>
-        <div className={!nav ? "fixed left-0 top-0 w-[40%] h-full bg-gradient-to-r from-black to-gray-700 border-r border-r-gray-900 bg-purple-100 ease-in-out duration-200" : "fixed left-[-100%]"}>
+        <div className={!nav ? "fixed left-0 top-0 w-[100%] h-full text-center p-8 mt-8 bg-gradient-to-r from-black to-gray-700 border-r border-r-gray-900 bg-purple-100 ease-in-out duration-200" : "fixed left-[-100%]"}>
           <ul className="p-4 text-white">
             <button onClick={handleNav}>Close</button>
-            <Link to='/'><li onClick={handleNav} className="p-4 border-b border-gray-600">Home</li></Link>
-            <Link to="/History"><a href='#/History'><li onClick={handleNav} className="p-4 border-b border-gray-600">History</li></a></Link>
-            <Link to="/Games"><a href='#/Games'><li onClick={handleNav} className="p-4 border-b border-gray-600">Games</li></a></Link>
-            <Link to="/Books"><a href='#/Books'><li onClick={handleNav} className="p-4 border-b border-gray-600">Books</li></a></Link>
-            <Link to='/contact'><li onClick={handleNav} className="p-4 border-b border-gray-600">Contact</li></Link>
+            <Link to='/'><li onClick={handleNav} className="p-8 border-b border-gray-600">Home</li></Link>
+            <Link to="/History"><a href='#/History'><li onClick={handleNav} className="p-8 border-b border-gray-600">History</li></a></Link>
+            <Link to="/Games"><a href='#/Games'><li onClick={handleNav} className="p-8 border-b border-gray-600">Games</li></a></Link>
+            <Link to="/Books"><a href='#/Books'><li onClick={handleNav} className="p-8 border-b border-gray-600">Books</li></a></Link>
+            <Link to='/contact'><li onClick={handleNav} className="p-8 border-b border-gray-600">Contact</li></Link>
           </ul>
         </div>
       </div>

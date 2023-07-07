@@ -1,15 +1,16 @@
 import React from 'react'
 import Infernal from './Infernal'
 import Souls from './Souls'
+import { Link } from 'react-scroll'
 
 export default function Books() {
     return (
         <div id="/Books" className="bg-black py-10">
           <div className="nav2">
-            <h3 className="text-white text-xl text-center pb-1">BOOKS</h3>
+          <h3 className="text-white text-xl text-center pb-1">BOOKS</h3>
             <ul className="text-white text-center flex justify-center space-x-6 mb-5">
-                <a href="#Infernal"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">The Infernal City</h3></li></a>
-                <a href="#Souls"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Lord of Souls</h3></li></a>
+                <Link to="Infernal" spy={true} smooth={true} offset={-50} duration={500}><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">The Infernal City</h3></li></Link>
+                <Link to="Souls" spy={true} smooth={true} offset={-50} duration={500}><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Lord of Souls</h3></li></Link>
             </ul>
           </div>
             <div class="history" className="flex-col" >

@@ -2,6 +2,7 @@ import React from 'react'
 import Gods from './Gods'
 import Locations from './Locations'
 import Ages from './Ages'
+import { Link } from 'react-scroll'
 
 export default function History() {
     return (
@@ -9,9 +10,9 @@ export default function History() {
           <div className="nav2">
             <h3 className="text-white text-xl text-center pb-1">History of Tamriel</h3>
             <ul className="text-white text-center flex justify-center space-x-6 mb-5">
-                <a href="#Gods"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Gods</h3></li></a>
-                <a href="#Locations"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Locations</h3></li></a>
-                <a href="#Ages"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Ages</h3></li></a>
+                <Link to="Gods" spy={true} smooth={true} offset={-180} duration={500}><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Gods</h3></li></Link>
+                <Link to="Locations" spy={true} smooth={true} offset={-180} duration={500}><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Locations</h3></li></Link>
+                <Link to="Ages" spy={true} smooth={true} offset={-180} duration={500}><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Ages</h3></li></Link>
             </ul>
           </div>
             <div class="history" className="flex-col" >

@@ -4,6 +4,7 @@ import Daggerfall from './Daggerfall'
 import Morrowind from './Morrowind'
 import Oblivion from './Oblivion'
 import Skyrim from './Skyrim'
+import { Link } from 'react-scroll'
 
 export default function Games() {
     return (
@@ -11,11 +12,11 @@ export default function Games() {
           <div className="nav2">
             <h3 className="text-white text-xl text-center pb-1">GAMES</h3>
             <ul className="text-white text-center flex justify-center space-x-6 mb-5">
-                <a href="#Arena"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Arena</h3></li></a>
-                <a href="#Daggerfall"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Daggerfall</h3></li></a>
-                <a href="#Morrowind"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Morrowind</h3></li></a>
-                <a href="#Oblivion"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Oblivion</h3></li></a>
-                <a href="#Skyrim"><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Skyrim</h3></li></a>
+                <Link to="Arena" spy={true} smooth={true} offset={-80} duration={500}><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Arena</h3></li></Link>
+                <Link to="Daggerfall" spy={true} smooth={true} offset={-80} duration={500}><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Daggerfall</h3></li></Link>
+                <Link to="Morrowind" spy={true} smooth={true} offset={-80} duration={500}><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Morrowind</h3></li></Link>
+                <Link to="Oblivion" spy={true} smooth={true} offset={-80} duration={500}><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Oblivion</h3></li></Link>
+                <Link to="Skyrim" spy={true} smooth={true} offset={-170} duration={500}><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Skyrim</h3></li></Link>
             </ul>
           </div>
             <div class="history" className="flex-col" >
@@ -28,7 +29,7 @@ export default function Games() {
                 <Morrowind />
                 <img className="mx-auto mt-24" src="./divider.jpg" />
                 <Oblivion />
-                <img className="mx-auto pb-48" src="./divider.jpg" />
+                <img className="mx-auto pb-24" src="./divider.jpg" />
                 <Skyrim />
             </div>
         </div>

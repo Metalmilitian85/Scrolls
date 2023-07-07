@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Infernal() {
     return (
-        <div id="Infernal" className="text-white text-center justify-center mx-auto mb-5 pt-48">
-            <h3>The Infernal City</h3>
+        <div id="Infernal" className="text-white text-center justify-center mx-auto mb-5 pt-24">
+            <h3 className="text-3xl text-center text-white my-5">The Infernal City</h3>
             <img className="mx-auto w-[40%] max-w-xl" src="./infernal.jpg" />
             <div className="text-white m-8">
                 <p>Set 40 years after the events of The Elder Scrolls IV: Oblivion, an unknown mass has appeared on the coast of 

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Arena() {
     return (
-        <div id="Arena" className="mb-5 pt-48">
+        <div id="Arena" className="mb-5 pt-24">
             <h3 className="text-white text-center text-9xl">I</h3>
             <h3 className="text-3xl text-center text-white mt-3">Arena</h3>
               <div className="text-white m-8">

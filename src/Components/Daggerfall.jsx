@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Daggerfall() {
     return (
-        <div id="Daggerfall" className="mb-5 pt-48">
+        <div id="Daggerfall" className="mb-5 pt-24">
             <h3 className="text-white text-center text-9xl">II</h3>
             <h3 className="text-3xl text-center text-white mt-3">Daggerfall</h3>
               <div className="text-white m-8">

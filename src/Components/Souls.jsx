@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Souls() {
     return (
-        <div id="Souls" className="text-white text-center justify-center mx-auto mb-5 pt-48">
-            <h3>Lord of Souls</h3>
+        <div id="Souls" className="text-white text-center justify-center mx-auto mb-5 pt-24">
+            <h3 className="text-3xl text-center text-white my-5">Lord of Souls</h3>
             <img className="mx-auto w-[40%] max-w-xl" src="./souls.webp" />
             <div className="text-white m-8">
                 <p>Like its predecessor The Infernal City, the novel Lord of Souls takes places about 40 years after the events of 

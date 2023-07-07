@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Morrowind() {
     return (
-        <div id="Morrowind" className="mb-5 pt-48">
+        <div id="Morrowind" className="mb-5 pt-24">
             <h3 className="text-white text-center text-9xl">III</h3>
             <h3 className="text-3xl text-center text-white mt-3">Morrowind</h3>
               <div className="text-white m-8">
