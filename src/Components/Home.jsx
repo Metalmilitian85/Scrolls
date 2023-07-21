@@ -1,13 +1,12 @@
 import React from 'react'
-import History from './History'
 
 export default function Home() {
     return (
-        <div className="homebg">
-            <h3>Home</h3>
-            <img src="skyrimbg.webp" className="w-[75%] mx-auto p-4 pt-24" />
-            <div>
-            <iframe width="560" height="315" src="https://youtu.be/47-TGIzmTrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div>
+            <h3 className="text-3xl text-center text-white mt-3">Welcome</h3>
+            <h3 className="mx-8 mt-8 text-2xl text-white text-center">This page has all the information you'll need on The Elder Scrolls history for the main games and books.</h3>
+            <div className="flex justify-center mx-10">
+                <iframe width="1120" height="630" src="https://www.youtube.com/embed/JSRtYpNRoN0?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     )
