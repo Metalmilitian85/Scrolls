@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link to='/contact'><li className="p-4 hover:text-purple-200 hover:scale-105 duration-300">Contact</li></Link>
           </ul>
       <div className="content-between">  
-        <a href="https://elderscrolls.bethesda.net/en/" target="_blank"><h2 className="text-white text-3xl">The Elder Scrolls</h2></a>
+        <Link to="/"><h2 className="text-white text-3xl">The Elder Scrolls</h2></Link>
         <div className={!nav ? "fixed left-0 top-0 w-[100%] h-full text-center p-8 mt-8 bg-gradient-to-r from-black to-gray-700 border-r border-r-gray-900 bg-purple-100 ease-in-out duration-200" : "fixed left-[-100%]"}>
           <ul className="p-4 text-white">
             <button onClick={handleNav}>Close</button>

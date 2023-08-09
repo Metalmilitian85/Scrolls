@@ -7,7 +7,7 @@ import { Link } from 'react-scroll'
 export default function History() {
     return (
         <div id="/History" className="bg-black py-10">
-          <div className="nav2">
+          <div className="nav2 bg-gradient-to-b from-gray-700 to-gray-400">
             <h3 className="text-white text-xl text-center pb-1">History of Tamriel</h3>
             <ul className="text-white text-center flex justify-center space-x-6 mb-5">
                 <Link to="Gods" spy={true} smooth={true} offset={-180} duration={500}><li><h3 className="text-sm hover:underline hover:cursor-pointer decoration-solid decoration-yellow-500 decoration-2">Gods</h3></li></Link>
